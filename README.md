@@ -39,20 +39,16 @@ python app.py
 If you want to retrain the model from scratch:
 python model_training.py
 
-✅ Advantages
-User-Friendly Symptom Input
-
+###✅ Advantages
+- User-Friendly Symptom Input
 Accepts natural language symptom descriptions instead of requiring users to select from a predefined list.
 
-Accurate Disease Prediction
-
+- Accurate Disease Prediction
 Uses an ensemble of machine learning models (Naive Bayes, Random Forest, SVM, and Logistic Regression) to ensure high accuracy (up to 97%).
 
-Real-Time Interaction
-
+- Real-Time Interaction
 Integrated with a Flask web app, allowing users to get instant predictions through a simple and clean interface.
 
-Reusable and Scalable
-
+- Reusable and Scalable
 Pretrained models and vectorizers are saved using Joblib, making it easy to integrate into mobile apps, APIs, or other platforms.
  
