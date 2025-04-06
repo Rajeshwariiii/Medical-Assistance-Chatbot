@@ -20,7 +20,7 @@ git clone https://github.com/your-username/Medical-Assistant-Chatbot.git
 
 cd Medical-Assistant-Chatbot
 
-2️⃣ Create Virtual Environment (Recommended)
+### 2️⃣ Create Virtual Environment (Recommended)
 
 python -m venv venv
 
@@ -28,18 +28,20 @@ source venv/bin/activate     # On macOS/Linux
 
 venv\Scripts\activate        # On Windows
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 pip install pandas nltk scikit-learn flask joblib
 
 Make sure to download NLTK resources:
 
 ### Running the Project
+On the Terminal run the following command after installing all above requirements.
+
 python app.py
 
 If you want to retrain the model from scratch:
 python model_training.py
 
-###✅ Advantages
+### ✅ Advantages
 - User-Friendly Symptom Input
 Accepts natural language symptom descriptions instead of requiring users to select from a predefined list.
 
