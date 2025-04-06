@@ -20,17 +20,14 @@ git clone https://github.com/your-username/Medical-Assistant-Chatbot.git
 cd Medical-Assistant-Chatbot
 
 2️⃣ Create Virtual Environment (Recommended)
+
 python -m venv venv
 source venv/bin/activate     # On macOS/Linux
 venv\Scripts\activate        # On Windows
 
 3️⃣ Install Dependencies
 pip install pandas nltk scikit-learn flask joblib
- make sure to download NLTK resources:
-# Run this once in a Python shell
-import nltk
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+Make sure to download NLTK resources:
 
 ### Running the Project
 python app.py
